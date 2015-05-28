@@ -1,6 +1,6 @@
 #Waterfall
 
-A bookmarklet to create page load waterfall in the browser using the Resource Timing API
+A bookmarklet to create page load waterfall in the browser using the <a href="http://w3c.github.io/resource-timing/">Resource Timing API</a>.
 
 Just add the bookmarklet below to your bookmarks bar.
 
