@@ -30,7 +30,7 @@ IE 10, Chromium Nightly
 - Cleanup and refactor drawing code
 - ~~Add Close button~~
 - Add Jdrop / HAR Storage links
-- Flexible width?
+- ~~Flexible width~~
 
 #To check
 
