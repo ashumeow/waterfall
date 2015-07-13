@@ -144,7 +144,7 @@
 			container.id = containerID;
 		}
 
-		container.style.cssText = 'background:#fff;border: 2px solid #000;margin:5px;position:absolute;top:0px;left:0px;z-index:99999;margin:0px;padding:0px;';
+		container.style.cssText = 'background:#fff;border: 2px solid #000;position:absolute;top:0;left:0;right:0;z-index:99999;margin:0px 8px;padding:0px;';
 		container.appendChild(closeBtn);
 		d.body.appendChild(container);
 
@@ -155,7 +155,7 @@
 		//calculate size of chart
 		// - max time
 		// - number of entries
-		var width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+		var width = (window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth) - 16;
 		var height = (entries.length + 1) * (rowHeight + rowPadding); // +1 for axis
 
 		container.width = width;
